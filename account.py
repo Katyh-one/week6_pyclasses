@@ -18,9 +18,9 @@ def write_report(statement, firstname, lastname, initialbalance, depositamount, 
     today = date.today()
     statement.write(f'Hello {firstname} {lastname}\n' + ('*' * 50) + '\n')
     statement.write(f'Statement date: {today}\n')
-    statement.write(f'Your starting balance was {initialbalance}\n')
-    statement.write(f'You deposited {depositamount}\n')
-    statement.write(f'Your new balance is {newbalance}')
+    statement.write(f'Your starting balance was ${initialbalance}\n')
+    statement.write(f'You deposited ${depositamount}\n')
+    statement.write(f'Your new balance is ${newbalance}')
     statement.close()
 
 

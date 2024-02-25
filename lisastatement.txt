@@ -1,6 +1,6 @@
 Hello Lisa Van Houten
 **************************************************
-Statement date: 2024-02-24
-Your starting balance was 100
-You deposited 12
-Your new balance is 112
+Statement date: 2024-02-25
+Your starting balance was $100
+You deposited $50
+Your new balance is $150
